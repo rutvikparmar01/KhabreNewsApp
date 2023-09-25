@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Rupert Murdoch latest news: 92-year-old steps down as chair of News Corp and Fox",
+            "description": "The 93-year-old media mogul's eldest son Lachlan already headed Fox and will now head News Corp too.",
+            "url": "http://www.bbc.co.uk/news/live/business-66881282",
+            "urlToImage": "https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/5.3.0/bbc_news_logo.png",
+            "publishedAt": "2023-09-21T13:52:22.2063294Z",
+            "content": "More now from Murdoch's statement.\r\nThe 92-year-old said he would be taking up the position as chairman emeritus of Fox Corporation and News Corp. \r\n\"For my entire professional life, I have been enga… [+579 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC Sport",
+            "title": "'I don't care about sportswashing'",
+            "description": "Saudi Arabia crown prince Mohammed bin Salman says he is focused on economic targets.",
+            "url": "http://www.bbc.co.uk/sport/66874723",
+            "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/14B12/production/_131145748_gettyimages-1654190361.jpg",
+            "publishedAt": "2023-09-21T13:22:31.8163062Z",
+            "content": "Newcastle United revealed a 2022-23 third kit which resembled the Saudi Arabia national team kit\r\nSaudi Arabia crown prince Mohammed bin Salman says he does not care about accusations of 'sportswashi… [+3191 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Rupert Murdoch steps down as Fox chairman",
+            "description": "Media mogul Rupert Murdoch says he is stepping down as chairman of Fox and News Corp, with son Lachlan to head both companies",
+            "url": "http://www.bbc.co.uk/news/business-66881306",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/83B3/production/_115651733_breaking-large-promo-nc.png",
+            "publishedAt": "2023-09-21T13:22:24.9882603Z",
+            "content": "Media mogul Rupert Murdoch says he is stepping down as chairman of Fox and News Corp, with son Lachlan to head both companies"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Game of Thrones author sues ChatGPT owner OpenAI",
+            "description": "George RR Martin and John Grisham are among the authors suing the company over copyright laws.",
+            "url": "http://www.bbc.co.uk/news/technology-66866577",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/DC3F/production/_131138365_mediaitem131138363.jpg",
+            "publishedAt": "2023-09-21T12:52:17.1594829Z",
+            "content": "US authors George RR Martin and John Grisham are suing ChatGPT-owner OpenAI over claims their copyright was infringed to train the system. \r\nMartin is known for his fantasy series A Song of Ice and F… [+3007 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "South Korea raids US military bases in drugs probe",
+            "description": "Some 17 soldiers and five other people allegedly smuggled or used synthetic marijuana via military mail.",
+            "url": "http://www.bbc.co.uk/news/world-asia-66874163",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/A8F6/production/_131145234_gettyimages-1252628616.jpg",
+            "publishedAt": "2023-09-21T11:52:10.4721084Z",
+            "content": "South Korean police are investigating 17 US soldiers and five other people who allegedly smuggled or used synthetic marijuana via military mail.\r\nThis follows raids in at least two US army bases in M… [+2144 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "India suspends visas for Canadians as row escalates",
+            "description": "Relations have plummeted since Canada's PM linked India to the killing of a Sikh separatist leader.",
+            "url": "http://www.bbc.co.uk/news/world-asia-india-66851964",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/A95A/production/_131145334_gettyimages-1653681028-594x594.jpg",
+            "publishedAt": "2023-09-21T08:37:20.7062626Z",
+            "content": "India has suspended visa services for Canadian citizens amid an escalating row over the killing of a Sikh separatist on Canadian soil.\r\nVisa service provider BLS posted a message from India's mission… [+2618 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Charles gives French toast at star-studded banquet",
+            "description": "The monarch raises a toast to his hosts in Versaille, President Macron and his wife Brigitte.",
+            "url": "http://www.bbc.co.uk/news/world-europe-66873139",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/174D4/production/_131144459_p0gfs5ym.jpg",
+            "publishedAt": "2023-09-21T08:07:18.9713042Z",
+            "content": "King Charles III raised a toast to his hosts Emmanuel and Brigitte Macron at a star-studded banquet in Versailles.\r\nFamous guests including Hugh Grant, Arsene Wenger and Didier Drogba joined the dinn… [+87 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Google accused of directing motorist to drive off collapsed bridge",
+            "description": "Google had been asked to update its maps in the nine years before the father of two's death.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66873982",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10CEC/production/_131144886_gettyimages-1238123389.jpg",
+            "publishedAt": "2023-09-21T03:52:18.5027603Z",
+            "content": "The family of a US man who drowned after driving off a collapsed bridge are claiming that he died because Google failed to update its maps. \r\nPhilip Paxson's family are suing the company over his dea… [+2054 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Poland to stop supplying weapons to Ukraine over grain row",
+            "description": "It comes as tensions rapidly escalate between the two countries - historically close allies.",
+            "url": "http://www.bbc.co.uk/news/world-europe-66873495",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/610C/production/_131144842_f6093aa74cdf278be56d1287abc408dec6ac70f80_0_4074_22931000x563.jpg",
+            "publishedAt": "2023-09-21T02:22:14.971767Z",
+            "content": "One of Ukraine's staunchest allies, Poland, has announced it will no longer supply weapons to the country as a diplomatic dispute over grain escalates.\r\nThe nation's prime minister said it would inst… [+2386 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "US spending in Ukraine explained in four charts",
+            "description": "Volodymyr Zelensky needs the US to give more aid to Ukraine, but some are growing wary of the hefty price tag.",
+            "url": "http://www.bbc.co.uk/news/66870559",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/AB44/production/_131144834_gettyimages-1251811616.jpg",
+            "publishedAt": "2023-09-21T00:07:17.1591832Z",
+            "content": "The United States has poured more than a hundred billion dollars into Ukraine's effort to repel Russia's invasion, spending far more than any other nation. But as President Volodymyr Zelensky comes t… [+6491 chars]"
+        }
+    ]
+}
