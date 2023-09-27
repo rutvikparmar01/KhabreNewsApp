@@ -15,20 +15,25 @@ export class News extends Component {
 
      
     async componentDidMount() {
-        let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=6506b05438814211a96e534af1f59dc7&pagesize=5`;
+        this.props.setProgress(10)
+        let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=6506b05438814211a96e534af1f59dc7`;
         this.setState({loading:true});
         let data = await fetch(url)
+        this.props.setProgress(30)
         let mydata = await data.json();
         console.log(mydata);
         this.setState({ articles: mydata.articles,
             loading:false
          })
+         this.props.setProgress(100)
     }
 
     handNex = async ()=>{
-        let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=6506b05438814211a96e534af1f59dc7&page=${this.state.page+1}&pagesize=5`;
+        this.props.setProgress(10)
+        let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=6506b05438814211a96e534af1f59dc7&page=${this.state.page+1}`;
         this.setState({loading:true});
         let data = await fetch(url)
+        this.props.setProgress(30)
         let mydata = await data.json();
         console.log(mydata);
         
@@ -40,16 +45,20 @@ export class News extends Component {
 
             }
         )
+        this.props.setProgress(100)
 
         
 
     }
       
     handPre = async ()=>{
-        let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=6506b05438814211a96e534af1f59dc7&page=${this.state.page-1}&pagesize=5`;
+        this.props.setProgress(10)
+        let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=6506b05438814211a96e534af1f59dc7&page=${this.state.page-1}`;
         this.setState({loading:true});
         let data = await fetch(url);
+        this.props.setProgress(30)
         let mydata = await data.json();
+        this.props.setProgress(100)
         // this.setState.loading({loading:false});
         
         this.setState(
@@ -68,7 +77,7 @@ export class News extends Component {
         return (
             <div className='container my-3'>
                
-                <h1>Top-News</h1>
+                <h1 className='text-center my-3 ' style={{color: "#9D44C0"}}>Top-News</h1>
              {this.state.loading && <Spinner/>}
                 <div className="row">
                     {!(this.state.loading)&&this.state.articles.map((element) => {

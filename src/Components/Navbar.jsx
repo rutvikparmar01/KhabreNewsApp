@@ -4,7 +4,7 @@ import {  Link } from 'react-router-dom';
 export class Navbar extends Component {
  
   render() {
-    let {mode,toggleMode}=this.props
+    let {mode,toggleMode,edit,color}=this.props
     return (
       <div >
         <nav className={`navbar navbar-expand-lg navbar-${mode} bg-${mode}`}>
@@ -31,10 +31,14 @@ export class Navbar extends Component {
              
             </ul>
           </div>
-          <div className="form-group form-check">
-    <input onClick={toggleMode} type="checkbox" className="form-check-input" id="exampleCheck1"/>
+          {/* <div className="form-group form-check"> */}
+    {/* <input onClick={toggleMode} type="checkbox" className="form-check-input" id="exampleCheck1"/>
     <label className="form-check-label" htmlFor="exampleCheck1">Click to dark mode!</label>
-  </div>
+  </div> */}
+  <div className="custom-control custom-switch">
+  <input type="checkbox" onClick={toggleMode} className="custom-control-input" id="customSwitch1"/>
+  <label className="custom-control-label" style={{color:"#E25E3E"}} htmlFor="customSwitch1">{edit}</label>
+</div>
       
         </nav>
       </div>
