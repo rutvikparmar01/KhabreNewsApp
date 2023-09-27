@@ -48,9 +48,9 @@ export class App extends Component {
         <Navbar mode={this.state.mode} edit={this.state.edit} color={this.state.color} toggleMode={this.setMode}/>
      
       <LoadingBar
-        color='#f11946'
+        color='#0E21A0'
         // background="#78C1F3"
-        height={2}
+        height={3}
         progress={this.state.progress}
         
       />
